@@ -1,0 +1,72 @@
+.cabecalho {
+	display: flex;
+	flex-direction: column;
+}
+
+.cabecalho__container{
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.cabecalho__pesquisa {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 60%;
+}
+
+.pesquisa__texto {
+	border: none;
+	background: #F5F5F5;
+	border-radius: 20px;
+	height: 40px;
+	width: 40%;
+	margin-left: 40px;
+}
+
+.pesquisa__logo {
+	position: absolute;
+	top: 50px;
+	left: 640px;
+}
+
+.cabecalho__botao {
+	width: 160px;
+	height: 40px;
+	background: white;
+	color: #2A7AE4;
+	border: 1px solid #2A7AE4;
+}
+
+.banner__imagem {
+	width: 100vw;
+}
+
+.banner__descricao {
+	position: absolute;
+	top: 270px;
+	left: 120px;
+	z-index: 1;
+}
+
+.banner__titulo {
+	color: white;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+.banner__texto {
+	color: white;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.banner__botao {
+	width: 120px;
+	height: 40px;
+	background: #2A7AE4;
+	color: white;
+	border: none;
+}
