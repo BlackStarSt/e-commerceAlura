@@ -1,0 +1,30 @@
+.produtos {
+	display: flex;
+	flex-direction: column;
+}
+
+.produtos__topo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.topo__titulo {
+	font-size: 30px;
+}
+
+.topo__botao {
+	border: none;
+	font-size: 20px;
+	background-color: white;
+}
+
+.produtos__lista {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.produto__botao {
+	text-decoration: none;
+}
