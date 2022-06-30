@@ -1,6 +1,7 @@
 .cabecalho {
 	display: flex;
 	flex-direction: column;
+	height: auto;
 }
 
 .cabecalho__container{
@@ -41,23 +42,16 @@
 }
 
 .banner__container {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../img/banner-image.png);
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	order: 1;
-	align-items: center;
-}
-
-.banner__imagem {
-	width: 100vw;
+	align-items: flex-end;
+	height: 352px;
 }
 
 .banner__descricao {
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
-	align-items: flex-start;
-	order: 0;
+	padding: 50px 150px;
 }
 
 .banner__titulo {
@@ -69,7 +63,7 @@
 .banner__texto {
 	color: white;
 	font-size: 25px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 .banner__botao {
