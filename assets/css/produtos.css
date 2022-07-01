@@ -1,22 +1,40 @@
 .produtos {
 	display: flex;
 	flex-direction: column;
+	background: var(--branco-acinzentado);
+}
+
+.produtos__container {
+	height: 400px;
+	margin: 3% 5% 0 5%;
 }
 
 .produtos__topo {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height: 20%;
+	padding: 0 23px 0 23px;
 }
 
 .topo__titulo {
 	font-size: 30px;
+	font-family: var(--raleway);
+	font-weight: bold;
+	color: var(--cinza);
 }
 
 .topo__botao {
 	border: none;
 	font-size: 20px;
-	background-color: white;
+	background: var(--branco-acinzentado);
+}
+
+.topo__link {
+	text-decoration: none;
+	font-family: var(--raleway);
+	color: var(--azul-claro);
+	font-weight: bolder;
 }
 
 .produtos__lista {
@@ -25,6 +43,26 @@
 	justify-content: space-evenly;
 }
 
+.produto__descricao {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-family: var(--raleway);
+	height: 80px;
+}
+
+.produto__nome {
+	font-weight: 500;
+	color: var(--cinza);
+}
+
+.produto__preco {
+	font-weight: bold;
+	color: var(--cinza);
+}
+
 .produto__botao {
 	text-decoration: none;
+	color: var(--azul-claro);
+	font-weight: bolder;
 }
