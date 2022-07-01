@@ -20,7 +20,7 @@
 
 .pesquisa__texto {
 	border: none;
-	background: #F5F5F5;
+	background: var(--cinza-claro);
 	border-radius: 20px;
 	height: 40px;
 	width: 40%;
@@ -37,14 +37,15 @@
 	width: 160px;
 	height: 40px;
 	background: white;
-	color: #2A7AE4;
-	border: 1px solid #2A7AE4;
+	color: var(--azul-claro);
+	border: 1px solid var(--azul-claro);
 }
 
 .banner__container {
-	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../img/banner-image.png);
 	display: flex;
 	align-items: flex-end;
+	position: relative;
+	background: url(../img/banner-image.png);
 	height: 352px;
 }
 
@@ -52,16 +53,17 @@
 	display: flex;
 	flex-direction: column;
 	padding: 50px 150px;
+	position: absolute;
 }
 
 .banner__titulo {
-	color: white;
+	color: var(--branco);
 	font-size: 60px;
 	margin-bottom: 20px;
 }
 
 .banner__texto {
-	color: white;
+	color: var(--branco);
 	font-size: 25px;
 	margin-bottom: 20px;
 }
@@ -70,7 +72,7 @@
 	width: 120px;
 	height: 40px;
 	background: #2A7AE4;
-	color: white;
+	color: var(--branco);
 	border: none;
 }
 
