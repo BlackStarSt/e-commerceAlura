@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="./assets/css/style.css">
 		<link rel="stylesheet" href="./assets/css/cabecalho.css">
 		<link rel="stylesheet" href="./assets/css/produtos.css">
+		<link rel="stylesheet" href="./assets/css/rodape.css">
 		<link rel="stylesheet" href="./assets/css/reset.css">
 		<title>AluraGeek</title>
 	</head>
@@ -204,5 +205,36 @@
 				</div>
 			</div>
 		</section>
+		<footer class="rodape">
+			<div class="rodape__principal">
+				<img class="rodape__logo" src="./assets/img/logo.png">
+				<nav class="rodape__nav">
+					<ul class="rodape__lista">
+						<li class="rodape__botao"><a class="rodape__link" href="#">Quem somos nós</a></li>
+						<li class="rodape__botao"><a class="rodape__link" href="#">Politíca de privacidade</a></li>
+						<li class="rodape__botao"><a class="rodape__link" href="#">Programa fidelidade</a></li>
+						<li class="rodape__botao"><a class="rodape__link" href="#">Nossas lojas</a></li>
+						<li class="rodape__botao"><a class="rodape__link" href="#">Quero ser franqueado</a></li>
+						<li class="rodape__botao"><a class="rodape__link" href="#">Anuncie aqui</a></li>
+					</ul>
+				</nav>
+				<form class="rodape__form">
+					<label class="titulo__form">Fale conosco</label>
+					<div class="form__input">
+						<div class="nome__float">
+							<input class="form__nome" type="text" placeholder="Nome"
+								onfocus="this.placeholder=''"
+								onblur="this.placeholder='Nome'">
+							<label class="label__nome">Nome</label>
+						</div>
+						<textarea class="form__mensagem" placeholder="Escreva sua mensagem"></textarea>
+					</div>
+					<button class="form__botao">Enviar mensagem</button>
+				</form>
+			</div>
+			<div class="rodape__infos">
+				Desenvolvido por Sthefany Alves</br>2022
+			</div>
+		</footer>
 	</body>
 </html>
