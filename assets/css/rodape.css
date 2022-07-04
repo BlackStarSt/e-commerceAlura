@@ -1,0 +1,99 @@
+.rodape__principal {
+	align-items: flex-start;
+	background: var(--azul-cristal);
+	display: flex;
+	height: 250px;
+	justify-content: space-around;
+	padding: 2.5rem;
+}
+
+.rodape__nav {
+	height: 100%;
+	width: 20%;
+}
+
+.rodape__lista {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.rodape__link {
+	color: var(--cinza);
+	font-family: var(--raleway);
+	font-size: 15px;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.rodape__form {
+	width: 35%;
+	height: 100%;
+}
+
+.titulo__form {
+	color: var(--cinza);
+	font-family: var(--raleway);
+	font-weight: bold;
+}
+
+.form__input {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 80%;
+}
+
+.nome__float {
+	position: relative;
+}
+
+.form__nome {
+	border: none;
+	border-radius: 5px 5px 0 0;
+	font-family: var(--raleway);
+	height: 40px;
+	position: relative;
+	outline: 0;
+	width: 100%;
+	z-index: 2;
+	padding-right: 5px;
+}
+
+.label__nome {
+	color: var(--cinza-metal);
+	font-family: var(--raleway);
+	font-size: 12px;
+	font-weight: 500;
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	width: 100%;
+}
+
+.form__nome:focus + .label__nome{
+	z-index: 2;
+}
+
+.form__mensagem {
+	border: none;
+	border-radius: 5px 0;
+	font-family: var(--raleway);
+	height: 100px;
+	outline: 0;
+	resize: none;
+	width: 100%;
+}
+
+.form__botao {
+	border: none;
+	background: var(--azul-claro);
+	color: var(--branco);
+	font-family: var(--raleway);
+	height: 40px;
+	width: 150px;
+}
+
+.rodape__infos {
+	background: var(--branco);
+}
