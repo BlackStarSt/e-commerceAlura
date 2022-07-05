@@ -19,18 +19,13 @@
 }
 
 .pesquisa__texto {
+	background: url('../img/lupa.png') no-repeat right, var(--cinza-claro);
 	border: none;
-	background: var(--cinza-claro);
 	border-radius: 20px;
+	font-family: var(--raleway);
 	height: 40px;
-	width: 40%;
 	margin-left: 40px;
-}
-
-.pesquisa__logo {
-	position: absolute;
-	top: 50px;
-	left: 640px;
+	width: 40%;
 }
 
 .cabecalho__botao {
@@ -45,13 +40,15 @@
 	display: flex;
 	align-items: flex-end;
 	position: relative;
-	background: url(../img/banner-image.png);
+	background: url(../img/banner-image.png) no-repeat center / cover;
 	height: 352px;
 }
 
 .banner__descricao {
 	display: flex;
 	flex-direction: column;
+	font-family: var(--raleway);
+	font-weight: 700;
 	padding: 50px 150px;
 	position: absolute;
 }
@@ -69,11 +66,35 @@
 }
 
 .banner__botao {
-	width: 120px;
-	height: 40px;
 	background: #2A7AE4;
-	color: var(--branco);
 	border: none;
+	color: var(--branco);
+	height: 40px;
+	font-family: var(--raleway);
+	font-weight: 300;
+	width: 120px;
 }
 
-@media screen and (min-width: 0px) {}
+@media screen and (min-width: 768px) {
+	.cabecalho__container {
+		height: 80px;
+		justify-content: space-around;
+	}
+
+	.pesquisa__texto {
+		width: 100%;
+		margin-left: 20px;
+	}
+
+	.banner__container {
+		max-width: 100vw;
+	}
+
+	.banner__descricao {
+		padding: 30px 50px;
+	}
+
+	.banner__texto {
+		font-size: 22px;
+	}
+}

@@ -9,13 +9,11 @@
 
 .rodape__nav {
 	height: 100%;
-	width: 20%;
 }
 
 .rodape__lista {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	height: 100%;
 }
 
@@ -95,5 +93,47 @@
 }
 
 .rodape__infos {
+	align-items: center;
 	background: var(--branco);
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.rodape__nome {
+	font-family: var(--raleway);
+	font-weight: 500;
+	font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+	.rodape__principal {
+		padding: 1.5rem;
+	}
+
+	.rodape__form {
+		width: 60%;
+	}
+
+	.rodape__itens {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+
+	.rodape__lista {
+		justify-content: space-around;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.rodape__nav {
+		width: 20%;	
+	}
+
+	.rodape__lista {
+		justify-content: space-between;
+	}
 }
