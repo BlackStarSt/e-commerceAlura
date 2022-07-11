@@ -1,10 +1,10 @@
 .rodape__principal {
-	align-items: flex-start;
 	background: var(--azul-cristal);
 	display: flex;
-	height: 250px;
-	justify-content: space-around;
-	padding: 2.5rem;
+}
+
+.rodape__itens {
+	height: 150px;
 }
 
 .rodape__nav {
@@ -26,7 +26,6 @@
 }
 
 .rodape__form {
-	width: 35%;
 	height: 100%;
 }
 
@@ -108,9 +107,42 @@
 	font-size: 15px;
 }
 
+@media screen and (min-width: 0) {
+	.rodape__principal {
+		align-items: center;
+		flex-direction: column;
+		height: 560px;
+		justify-content: space-between;
+		padding: 1.5rem;
+	}
+
+	.rodape__itens {
+		height: 240px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.rodape__lista {
+		justify-content: space-around;
+	}
+
+	.rodape__form {
+		height: 230px;
+		width: 100%;
+	}
+
+	.rodape__link {
+		line-height: 20px;
+	}
+}
+
+
 @media screen and (min-width: 768px) {
 	.rodape__principal {
-		padding: 1.5rem;
+		align-items: flex-start;
+		flex-direction: row;
+		height: 250px;
+		justify-content: space-around;
 	}
 
 	.rodape__form {
@@ -121,6 +153,13 @@
 		display: flex;
 		flex-direction: column;
 		height: 100%;
+		text-align: inherit;
+		justify-content: flex-start;
+		width: 30%;
+	}
+
+	.rodape__logo {
+		width: 170px;
 	}
 
 	.rodape__lista {
@@ -129,8 +168,22 @@
 }
 
 @media screen and (min-width: 992px) {
-	.rodape__nav {
-		width: 20%;	
+	.rodape__principal {
+		padding: 3rem;
+	}
+
+	.rodape__form {
+		width: 35%;
+	}
+
+	.rodape__itens {
+		flex-direction: row;
+		justify-content: space-around;
+		width: 45%;
+	}
+
+	.rodape__logo {
+		height: 50px;
 	}
 
 	.rodape__lista {
