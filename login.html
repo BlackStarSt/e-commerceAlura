@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@100;300;400;500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./assets/css/style.css">
+		<link rel="stylesheet" href="./assets/css/cabecalho.css">
+		<link rel="stylesheet" href="./assets/css/login.css">
+		<link rel="stylesheet" href="./assets/css/rodape.css">
+		<link rel="stylesheet" href="./assets/css/reset.css">
+		<title>AluraGeek | Login</title>
+	</head>
+	<body>
+		<header class="cabecalho container">
+			<div class="cabecalho__container">
+				<div class="cabecalho__pesquisa">
+					<img class="cabecalho__logo" src="./assets/img/logo.png" alt="Logo da AluraGeek">
+					<input class="pesquisa__texto" type="text" placeholder="O que deseja encontrar?">
+				</div>
+				<button class="cabecalho__botao">Login</button>
+				<img class="lupa__mobile" src="./assets/img/lupa.png">
+			</div>
+		</header>
+		<section class="login__container">
+			<form class="form__login">
+				<label class="titulo__login">Iniciar Sessão</label>
+				<div class="container__input">
+					<input type="email" class="input__login" placeholder="Escreva seu email" 
+					onfocus="this.placeholder=''"
+					onblur="this.placeholder='Email'" required>
+					<label class="input__titulo">Email</label>
+				</div>
+				<div class="container__input">
+					<input type="password" class="input__login" placeholder="Escreva sua senha"
+					onfocus="this.placeholder=''"
+					onblur="this.placeholder='Senha'" required>
+					<label class="input__titulo">Senha</label>
+				</div>
+				<button class="botao__login">Entrar</button>
+			</form>
+		</section>
+		<footer class="rodape">
+			<div class="rodape__principal">
+				<div class="rodape__itens">
+					<img class="rodape__logo" src="./assets/img/logo.png">
+					<nav class="rodape__nav">
+						<ul class="rodape__lista">
+							<li class="rodape__botao"><a class="rodape__link" href="#">Quem somos nós</a></li>
+							<li class="rodape__botao"><a class="rodape__link" href="#">Politíca de privacidade</a></li>
+							<li class="rodape__botao"><a class="rodape__link" href="#">Programa fidelidade</a></li>
+							<li class="rodape__botao"><a class="rodape__link" href="#">Nossas lojas</a></li>
+							<li class="rodape__botao"><a class="rodape__link" href="#">Quero ser franqueado</a></li>
+							<li class="rodape__botao"><a class="rodape__link" href="#">Anuncie aqui</a></li>
+						</ul>
+					</nav>
+				</div>
+				<form class="rodape__form">
+					<label class="titulo__form">Fale conosco</label>
+					<div class="form__input">
+						<div class="nome__float">
+							<input class="form__nome" type="text" placeholder="Nome"
+								onfocus="this.placeholder=''"
+								onblur="this.placeholder='Nome'">
+							<label class="label__nome">Nome</label>
+						</div>
+						<textarea class="form__mensagem" placeholder="Escreva sua mensagem"></textarea>
+					</div>
+					<button class="form__botao">Enviar mensagem</button>
+				</form>
+			</div>
+			<div class="rodape__infos">
+				<p class="rodape__nome">Desenvolvido por Sthefany Alves</br>2022</p>
+			</div>
+		</footer>
+	</body>
+</html>
