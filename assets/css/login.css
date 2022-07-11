@@ -1,0 +1,67 @@
+.login__container {
+	align-items: center;
+	background: var(--cinza-claro);
+	display: flex;
+	flex-direction: column;
+	height: 480px;
+	justify-content: center;
+}
+
+.form__login {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	justify-content: space-between;
+	width: 430px;
+}
+
+.titulo__login {
+	font-family: var(--raleway);
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.container__input {
+	position: relative;
+}
+
+.input__login {
+	border: none;
+	height: 65px;
+	padding: 0 20px;
+	width: 400px;
+}
+
+.input__login {
+	outline: 0;
+	position: relative;
+	z-index: 2;
+}
+
+.input__titulo {
+	color: var(--cinza-metal);
+	font-family: var(--raleway);
+	font-size: 12px;
+	font-weight: 500;
+	padding: 5px;
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	width: 100%;
+}
+
+.input__login:focus + .input__titulo,
+.input__login:not(:placeholder-shown) + .input__titulo {
+	z-index: 2;
+}
+
+.botao__login {
+	background: var(--azul-claro);
+	border: none;
+	color: var(--branco);
+	font-family: var(--raleway);
+	font-size: 20px;
+	font-weight: 500;
+	height: 65px;
+	width: 440px;
+}
