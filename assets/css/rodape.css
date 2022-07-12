@@ -53,9 +53,9 @@
 	height: 40px;
 	position: relative;
 	outline: 0;
-	width: 100%;
+	width: 98%;
 	z-index: 2;
-	padding-right: 5px;
+	padding: 0 2%;
 }
 
 .label__nome {
@@ -68,7 +68,8 @@
 	width: 100%;
 }
 
-.form__nome:focus + .label__nome{
+.form__nome:focus + .label__nome, 
+.form__nome:not(:placeholder-shown) + .label__nome {
 	z-index: 2;
 }
 
@@ -78,8 +79,9 @@
 	font-family: var(--raleway);
 	height: 100px;
 	outline: 0;
+	padding: 0 2%;
 	resize: none;
-	width: 100%;
+	width: 98%;
 }
 
 .form__botao {

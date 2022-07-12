@@ -14,11 +14,12 @@
 }
 
 .pesquisa__texto {
-	background: url('../img/lupa.png') no-repeat right, var(--cinza-claro);
+	background: url('../img/lupa.png') no-repeat 97%, var(--cinza-claro);
 	border: none;
 	border-radius: 20px;
 	font-family: var(--raleway);
 	height: 40px;
+	padding: 0 15px;
 }
 
 .cabecalho__botao {
@@ -109,7 +110,7 @@
 	.pesquisa__texto {
 		display: block;
 		width: 60%;
-		margin-left: 20px;
+		margin-left: 30px;
 	}
 
 	.lupa__mobile {
@@ -140,7 +141,7 @@
 	}
 
 	.pesquisa__texto {
-		width: 40%; /*?*/
+		width: 40%;
 		margin-left: 40px;
 	}
 

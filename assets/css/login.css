@@ -11,7 +11,6 @@
 	align-items: center;
 	display: flex;
 	flex-direction: column;
-	height: 300px;
 	justify-content: space-between;
 	width: 430px;
 }
@@ -28,12 +27,13 @@
 
 .input__login {
 	border: none;
-	height: 65px;
-	padding: 0 20px;
-	width: 400px;
 }
 
 .input__login {
+	border-radius: 4px;
+	color: var(--cinza-metal);
+	font-family: var(--raleway);
+	font-size: 16px;
 	outline: 0;
 	position: relative;
 	z-index: 2;
@@ -44,7 +44,6 @@
 	font-family: var(--raleway);
 	font-size: 12px;
 	font-weight: 500;
-	padding: 5px;
 	position: absolute;
 	top: 0; bottom: 0; left: 0; right: 0;
 	width: 100%;
@@ -60,8 +59,70 @@
 	border: none;
 	color: var(--branco);
 	font-family: var(--raleway);
-	font-size: 20px;
 	font-weight: 500;
-	height: 65px;
-	width: 440px;
+}
+
+@media screen and (min-width: 0) {
+	.cabecalho__container {
+		justify-content: space-between;
+		padding: 0 20px;
+	}
+
+	.login__container {
+		height: 360px;
+	}
+
+	.form__login {
+		height: 200px;
+	}
+
+	.input__login {
+		height: 40px;
+		width: 265px;
+		padding: 0 10px;
+	}
+
+	.input__titulo {
+		padding: 2px;
+	}
+
+	.botao__login {
+		font-size: 15px;
+		height: 40px;
+		width: 110px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.cabecalho__container {
+		justify-content: space-between;
+		padding: 0 150px;
+	}
+
+	.pesquisa__texto {
+		width: 60%;
+	}
+
+	.login__container {
+		height: 480px;
+	}
+
+	.form__login {
+		height: 300px;
+	}
+
+	.input__login {
+		height: 65px;
+		padding: 0 20px;
+		width: 400px;
+	}
+
+	.input__titulo {
+		padding: 5px;
+	}
+
+	.botao__login {
+		height: 65px;
+		width: 440px;
+	}
 }
