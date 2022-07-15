@@ -23,10 +23,11 @@
 }
 
 .cabecalho__botao {
-	height: 40px;
+	border: 1px solid var(--azul-claro);
 	background: white;
 	color: var(--azul-claro);
-	border: 1px solid var(--azul-claro);
+	cursor: pointer;
+	height: 40px;
 }
 
 .banner__container {
