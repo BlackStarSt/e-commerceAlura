@@ -1,0 +1,114 @@
+.cabecalho__container {
+	justify-content: space-between;
+}
+
+.cabecalho__pesquisa {
+	padding: 0 96px;
+}
+
+.produtos {
+	align-items: center;
+	background: var(--cinza-claro);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 1070px;
+}
+
+.produtos__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 1136px;
+}
+
+.produtos__topo {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+}
+
+.produtos__titulo {
+	font-family: var(--raleway);
+	font-size: 32px;
+	font-weight: 700;
+	color: var(--cinza);
+	line-height: 38px;
+}
+
+.produtos__botao {
+	background: var(--azul-claro);
+	border: none;
+	color: var(--branco);
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 400;
+	height: 50px;
+	width: 165px;
+}
+
+.produto__container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 940px;
+	justify-content: space-around;
+}
+
+.linha__produtos {
+	display: flex;
+	justify-content: space-between;
+	height: 250px;
+	width: 100%;
+}
+
+.foto__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	position: relative;
+}
+
+.produto__botoes {
+	left: 70%;
+	position: absolute;
+	top: 5%;
+}
+
+.botao__produto {
+	border: none;
+	cursor: pointer8;
+	height: 18px;
+	width: 18px;
+}
+
+.botao__produto-apaga {
+	background: url('../img/lixeira.png') no-repeat;
+}
+
+.botao__produto-edita {
+	background: url('../img/lapis.png') no-repeat;
+}
+
+.produto__descricao {
+	display: flex;
+	flex-direction: column;
+	font-family: var(--raleway);
+	height: 65px;
+	justify-content: space-between;
+}
+
+.produto__nome, .produto__codigo {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.produto__preco {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+@media screen and (min-width: 0) {
+	
+}
