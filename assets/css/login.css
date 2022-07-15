@@ -27,10 +27,8 @@
 
 .input__login {
 	border: none;
-}
-
-.input__login {
 	border-radius: 4px;
+	border-bottom: 1px solid var(--borda-cinza);
 	color: var(--cinza-metal);
 	font-family: var(--raleway);
 	font-size: 16px;

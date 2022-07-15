@@ -19,6 +19,7 @@
 
 .rodape__link {
 	color: var(--cinza);
+	cursor: pointer;
 	font-family: var(--raleway);
 	font-size: 15px;
 	font-weight: 500;
@@ -49,6 +50,7 @@
 .form__nome {
 	border: none;
 	border-radius: 5px 5px 0 0;
+	border-bottom: 1px solid var(--borda-cinza);
 	font-family: var(--raleway);
 	height: 40px;
 	position: relative;
@@ -76,6 +78,7 @@
 .form__mensagem {
 	border: none;
 	border-radius: 5px 0;
+	border-bottom: 1px solid var(--borda-cinza);
 	font-family: var(--raleway);
 	height: 100px;
 	outline: 0;
@@ -88,6 +91,7 @@
 	border: none;
 	background: var(--azul-claro);
 	color: var(--branco);
+	cursor: pointer;
 	font-family: var(--raleway);
 	height: 40px;
 	width: 150px;
