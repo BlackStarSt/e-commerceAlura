@@ -55,6 +55,7 @@
 	background: #2A7AE4;
 	border: none;
 	color: var(--branco);
+	cursor: pointer;
 	height: 40px;
 	font-family: var(--raleway);
 	font-weight: 300;
