@@ -87,6 +87,10 @@
 	width: 98%;
 }
 
+.form__erro {
+	border-color: red;
+}
+
 .form__botao {
 	border: none;
 	background: var(--azul-claro);
