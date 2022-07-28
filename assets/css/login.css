@@ -44,12 +44,16 @@
 	font-weight: 500;
 	position: absolute;
 	top: 0; bottom: 0; left: 0; right: 0;
-	width: 100%;
+	width: 0;
 }
 
 .input__login:focus + .input__titulo,
 .input__login:not(:placeholder-shown) + .input__titulo {
 	z-index: 2;
+}
+
+.input__login:focus {
+	border-color: var(--azul-claro);
 }
 
 .botao__login {
