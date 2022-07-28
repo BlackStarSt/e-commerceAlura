@@ -67,7 +67,7 @@
 	font-weight: 500;
 	position: absolute;
 	top: 0; bottom: 0; left: 0; right: 0;
-	width: 100%;
+	width: 0;
 }
 
 .form__nome:focus + .label__nome, 
@@ -85,6 +85,10 @@
 	padding: 0 2%;
 	resize: none;
 	width: 98%;
+}
+
+.form__nome:focus, .form__mensagem:focus {
+	border-color: var(--azul-claro);
 }
 
 .form__erro {
