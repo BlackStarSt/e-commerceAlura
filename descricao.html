@@ -115,17 +115,18 @@
 						<div class="nome__float">
 							<input class="form__nome" type="text" placeholder="Nome"
 								onfocus="this.placeholder=''"
-								onblur="this.placeholder='Nome'">
+								onblur="this.placeholder='Nome'" id="formNome" required>
 							<label class="label__nome">Nome</label>
 						</div>
-						<textarea class="form__mensagem" placeholder="Escreva sua mensagem"></textarea>
+						<textarea class="form__mensagem" placeholder="Escreva sua mensagem" id="formMensagem" required></textarea>
 					</div>
-					<button type="submit" class="form__botao">Enviar mensagem</button>
+					<button type="submit" class="form__botao" id="formBotao">Enviar mensagem</button>
 				</form>
 			</div>
 			<div class="rodape__infos">
 				<p class="rodape__nome">Desenvolvido por Sthefany Alves</br>2022</p>
 			</div>
 		</footer>
+		<script src="./assets/js/rodapeForm.js"></script>
 	</body>
 </html>
