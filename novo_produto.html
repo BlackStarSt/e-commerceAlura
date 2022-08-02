@@ -27,12 +27,9 @@
 		<main class="container__adiciona">
 			<section class="container__itens">
 				<h2 class="adiciona__titulo">Adicionar novo produto</h2>
-				<div class="container__input">
-					<input type="text" class="input__produto" id="imagem"
-						placeholder="URL da imagem"
-						onfocus="this.placeholder=''"
-						onblur="this.placeholder='URL da imagem'" required>
-					<label class="label__produto">URL da imagem</label>
+				<div class="container__file">
+					<label class="label__file" for="inputImagem" id="inputLabel">URL da imagem</label>
+					<input type="file" class="input__file" id="inputImagem" required>
 				</div>
 				<div class="container__input">
 					<input type="text" class="input__produto"
