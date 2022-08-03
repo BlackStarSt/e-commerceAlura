@@ -74,6 +74,7 @@
 	font-family: var(--raleway);
 	font-size: 12px;
 	font-weight: 500;
+	height: 10px;
 	padding: 1%;
 	position: absolute;
 	top: 0; bottom: 0; left: 0; right: 0;
@@ -85,6 +86,10 @@
 .input__descricao:focus + .label__produto,
 .input__descricao:not(:placeholder-shown) + .label__produto {
 	z-index: 2;
+}
+
+.input__produto:focus, .input__descricao:focus {
+	border-color: var(--azul-claro);
 }
 
 .adiciona__botao {

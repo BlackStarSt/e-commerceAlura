@@ -25,11 +25,18 @@
 			</div>
 		</header>
 		<main class="container__adiciona">
-			<section class="container__itens">
+			<form class="container__itens">
 				<h2 class="adiciona__titulo">Adicionar novo produto</h2>
 				<div class="container__file">
 					<label class="label__file" for="inputImagem" id="inputLabel">URL da imagem</label>
-					<input type="file" class="input__file" id="inputImagem" required>
+					<input type="file" class="input__file" id="inputImagem">
+				</div>
+				<div class="container__input">
+					<input type="text" class="input__produto"
+						placeholder="Nome do produto"
+						onfocus="this.placeholder=''"
+						onblur="this.placeholder='Nome do produto'" id="nome" required>
+					<label class="label__produto">Nome do produto</label>
 				</div>
 				<div class="container__input">
 					<input type="text" class="input__produto"
@@ -39,17 +46,10 @@
 					<label class="label__produto">Categoria</label>
 				</div>
 				<div class="container__input">
-					<input type="text" class="input__produto"
-						placeholder="Nome do produto"
-						onfocus="this.placeholder=''"
-						onblur="this.placeholder='Nome do produto'" required>
-					<label class="label__produto">Nome do produto</label>
-				</div>
-				<div class="container__input">
 					<input type="text" class="input__produto" 
 						placeholder="Preço do produto" 					
 						onfocus="this.placeholder=''"
-						onblur="this.placeholder='Preço do produto'" required>
+						onblur="this.placeholder='Preço do produto'" id="preco" required>
 					<label class="label__produto">Preço do produto</label>
 				</div>
 				<div class="container__input">
@@ -59,8 +59,8 @@
 						onblur="this.placeholder='Descrição do produto'" required>
 					<label class="label__produto">Descrição do produto</label>
 				</div>
-				<button class="adiciona__botao">Adicionar produto</button>
-			</section>
+				<button type="submit" class="adiciona__botao">Adicionar produto</button>
+			</form>
 		</main>
 		<footer class="rodape">
 			<div class="rodape__principal">
