@@ -118,6 +118,7 @@
 	}
 
 	.container__itens {
+		height: 480px;
 		width: 330px;
 	}
 
@@ -144,7 +145,6 @@
 	}
 
 	.container__itens {
-		height: 480px;
 		width: 705px;
 	}
 
