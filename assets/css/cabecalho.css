@@ -14,12 +14,24 @@
 }
 
 .pesquisa__texto {
-	background: url('../img/lupa.png') no-repeat 97%, var(--cinza-claro);
+	background: var(--cinza-claro);
 	border: none;
-	border-radius: 20px;
+	border-radius: 20px 0 0 20px;
 	font-family: var(--raleway);
+	float: left;
 	height: 40px;
-	padding: 0 15px;
+	padding: 0 10px;
+}
+
+.pesquisa__lupa {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--cinza-claro);
+	width: 30px;
+	height: 40px;
+	border-radius: 0 20px 20px 0;
 }
 
 .cabecalho__botao {
@@ -80,11 +92,11 @@
 		width: 120px;
 	}
 
-	.lupa__mobile {
-		width: 5%;
+	.pesquisa__texto {
+		display: none;
 	}
 
-	.pesquisa__texto {
+	.pesquisa__lupa {
 		display: none;
 	}
 
@@ -115,7 +127,11 @@
 		margin-left: 30px;
 	}
 
-	.lupa__mobile {
+	.pesquisa__lupa {
+		display: flex;
+	}
+
+	.pesquisa__lupa-mobile {
 		display: none;
 	}
 
