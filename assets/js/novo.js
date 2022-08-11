@@ -1,19 +1,6 @@
-let div = document.getElementsByClassName('container__file')[0];
-let nome = document.getElementById('inputLabel');
-let arquivo = document.getElementById('inputImagem');
 let nomeInput = document.getElementById('nome');
 let precoInput = document.getElementById('preco');
 let descricaoInput = document.getElementById('descricao');
-
-div.addEventListener('click', function() {
-    arquivo.click();
-});
-
-arquivo.addEventListener('change', function() {
-    if(arquivo.files.length > 0) {
-        nome.innerHTML = arquivo.files[0].name;
-    }
-});
 
 nomeInput.addEventListener('blur', (e) => {
     valida(e.target);

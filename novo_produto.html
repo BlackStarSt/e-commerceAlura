@@ -30,38 +30,41 @@
 			</div>
 		</header>
 		<main class="container__adiciona">
-			<form class="container__itens">
+			<form class="container__itens" data-form>
 				<h2 class="adiciona__titulo">Adicionar novo produto</h2>
-				<div class="container__file">
-					<label class="label__file" for="inputImagem" id="inputLabel">URL da imagem</label>
-					<input type="file" class="input__file" id="inputImagem">
+				<div class="container__input">
+					<input type="text" class="input__produto"
+						placeholder="URL da imagem"
+						onfocus="this.placeholder=''"
+						onblur="this.placeholder='URL da Imagem'" required data-url>
+					<label class="label__produto">URL da imagem</label>
 				</div>
 				<div class="container__input">
 					<input type="text" class="input__produto"
 						placeholder="Nome do produto"
 						onfocus="this.placeholder=''"
-						onblur="this.placeholder='Nome do produto'" id="nome" required>
+						onblur="this.placeholder='Nome do produto'" id="nome" required data-nome>
 					<label class="label__produto">Nome do produto</label>
 				</div>
 				<div class="container__input">
 					<input type="text" class="input__produto"
 						placeholder="Categoria" 					
 						onfocus="this.placeholder=''"
-						onblur="this.placeholder='Categoria'" required>
+						onblur="this.placeholder='Categoria'" required data-categoria>
 					<label class="label__produto">Categoria</label>
 				</div>
 				<div class="container__input">
 					<input type="text" class="input__produto" 
 						placeholder="Preço do produto" 					
 						onfocus="this.placeholder=''"
-						onblur="this.placeholder='Preço do produto'" id="preco" required>
+						onblur="this.placeholder='Preço do produto'" id="preco" required data-preco>
 					<label class="label__produto">Preço do produto</label>
 				</div>
 				<div class="container__input">
 					<input type="text" class="input__descricao" 
 						placeholder="Descrição produto"
 						onfocus="this.placeholder=''"
-						onblur="this.placeholder='Descrição do produto'" id="descricao" required>
+						onblur="this.placeholder='Descrição do produto'" id="descricao" required data-descricao>
 					<label class="label__produto">Descrição do produto</label>
 				</div>
 				<button type="submit" class="adiciona__botao">Adicionar produto</button>
@@ -100,6 +103,7 @@
 				<p class="rodape__nome">Desenvolvido por Sthefany Alves</br>2022</p>
 			</div>
 		</footer>
+		<script src="./controller/criaProdutos-controller.js" type="module"></script>
 		<script src="./assets/js/rodapeForm.js"></script>
 		<script src="./assets/js/novo.js"></script>
 	</body>

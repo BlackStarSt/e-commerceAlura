@@ -1,165 +1,57 @@
 {
     "produtos": [
         {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
+            "name": "Caneca stormtrooper",
+            "imageURL": "./assets/img/caneca.png",
+            "price": 60.0,
+            "id": 1,
+            "alt": "Foto caneca stormtrooper",
+            "section": "Star Wars",
             "description": ""
         },
         {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
+            "name": "Cabeça do Darth Vader",
+            "imageURL": "./assets/img/darth-head.png",
+            "price": 60.0,
+            "id": 2,
+            "alt": "Foto cabeça do Darth Vader",
+            "section": "Star Wars",
             "description": ""
         },
         {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
+            "name": "Boneco Yoda",
+            "imageURL": "./assets/img/yoda.png",
+            "price": 60.0,
+            "id": 3,
+            "alt": "Foto Yoda",
+            "section": "Star Wars",
             "description": ""
         },
         {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
+            "name": "Boneco Stormtrooper",
+            "imageURL": "./assets/img/stormtrooper.png",
+            "price": 60.0,
+            "id": 4,
+            "alt": "Foto Stormtrooper",
+            "section": "Star Wars",
             "description": ""
         },
         {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
+            "name": "Boneco baby Yoda",
+            "imageURL": "./assets/img/baby-yoda.png",
+            "price": 60.0,
+            "id": 5,
+            "alt": "Foto baby Yoda",
+            "section": "Star Wars",
             "description": ""
         },
         {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
-            "description": ""
-        },
-        {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
-            "description": ""
-        },
-        {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
-            "description": ""
-        },
-        {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
-            "description": ""
-        },
-        {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
-            "description": ""
-        },
-        {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
-            "description": ""
-        },
-        {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
-            "description": ""
-        },
-        {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
-            "description": ""
-        },
-        {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
-            "description": ""
-        },
-        {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
-            "description": ""
-        },
-        {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
-            "description": ""
-        },
-        {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
-            "description": ""
-        },
-        {
-            "name": "",
-            "imageURL": "",
-            "price": "",
-            "id": "",
-            "alt": "",
-            "section": "",
+            "name": "Boneco Darth Vader",
+            "imageURL": "./assets/img/darth-vader.png",
+            "price": 60.0,
+            "id": 6,
+            "alt": "Foto Darth Vader",
+            "section": "Star Wars",
             "description": ""
         }
     ]
