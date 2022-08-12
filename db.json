@@ -53,6 +53,114 @@
       "section": "Star Wars",
       "description": "",
       "id": 6
+    },
+    {
+      "name": "Controle do XBOX",
+      "imageURL": "./assets/img/controle-xbox.png",
+      "price": "60.00",
+      "alt": "Foto do Controle do XBOX",
+      "section": "Console",
+      "description": "",
+      "id": 7
+    },
+    {
+      "name": "PlayStation 5",
+      "imageURL": "./assets/img/play5.png",
+      "price": "60.00",
+      "alt": "Foto playStation 5",
+      "section": "Console",
+      "description": "",
+      "id": 8
+    },
+    {
+      "name": "Nintedo",
+      "imageURL": "./assets/img/nintendo.png",
+      "price": "60.00",
+      "alt": "Foto Console Nintendo",
+      "section": "Console",
+      "description": "",
+      "id": 9
+    },
+    {
+      "name": "Nintendo Switch",
+      "imageURL": "./assets/img/switch.png",
+      "price": "60.00",
+      "alt": "Foto controle Nintendo Switch",
+      "section": "Console",
+      "description": "",
+      "id": 10
+    },
+    {
+      "name": "Console XBOX",
+      "imageURL": "./assets/img/xbox.png",
+      "price": "60.00",
+      "alt": "Foto console XBOX",
+      "section": "Console",
+      "description": "",
+      "id": 11
+    },
+    {
+      "name": "GameBoy Color",
+      "imageURL": "./assets/img/game-boy.png",
+      "price": "60.00",
+      "alt": "GameBoy Colorido",
+      "section": "Console",
+      "description": "",
+      "id": 12
+    },
+    {
+      "name": "Camisa Atari",
+      "imageURL": "./assets/img/atari.png",
+      "price": "60.00",
+      "alt": "Foto camisa logo Atari",
+      "section": "Diversos",
+      "description": "",
+      "id": 13
+    },
+    {
+      "name": "Camisa SNES",
+      "imageURL": "./assets/img/camisa.png",
+      "price": "60.00",
+      "alt": "Foto camisa SNES",
+      "section": "Diversos",
+      "description": "",
+      "id": 14
+    },
+    {
+      "name": "Boneco Sonic",
+      "imageURL": "./assets/img/sonic.png",
+      "price": "60.00",
+      "alt": "Foto Boneco Sonic",
+      "section": "Diversos",
+      "description": "",
+      "id": 15
+    },
+    {
+      "name": "Despertador&Rádio",
+      "imageURL": "./assets/img/despertador.png",
+      "price": "60.00",
+      "alt": "Foto despertador rosa",
+      "section": "Diversos",
+      "description": "",
+      "id": 16
+    },
+    {
+      "name": "óculos VR",
+      "imageURL": "./assets/img/vr.png",
+      "price": "60.00",
+      "alt": "Foto Óculos VR",
+      "section": "Diversos",
+      "description": "",
+      "id": 17
+    },
+    {
+      "name": "Pikachu",
+      "imageURL": "./assets/img/pikachu.png",
+      "price": "60.00",
+      "alt": "Foto pelucia Pikachu",
+      "section": "Diversos",
+      "description": "",
+      "id": 18
     }
   ]
 }
